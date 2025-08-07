@@ -1,0 +1,82 @@
+/* BookAppointment.css */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* Form Container - Glassmorphism */
+.book_appt {
+  background: rgba(255, 255, 255, 0.08); /* subtle transparency */
+  border-radius: 16px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); /* for Safari */
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin-top: 2rem;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+.book_appt h2 {
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+/* Alert Styling */
+.alert-info {
+  white-space: pre-wrap;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 4px solid #17a2b8;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+}
+
+
+.form-label {
+  font-weight: 600;
+  color: #270505;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+
+.btn-primary {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #180303;
+  border-radius: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(to right, #5a0eb5, #1d60f2);
+  transform: scale(1.03);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .book_appt {
+    padding: 1.5rem;
+  }
+
+  .book_appt h2 {
+    font-size: 1.6rem;
+  }
+
+  .btn-primary {
+    font-size: 0.95rem;
+  }
+}

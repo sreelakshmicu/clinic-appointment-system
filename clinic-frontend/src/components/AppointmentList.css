@@ -1,0 +1,89 @@
+.doctor_appt {
+  padding: 3rem;
+  background-color: rgba(255, 255, 255, 0.05); 
+  border-radius: 12px;
+  box-shadow: 1 8px 24px rgba(170, 161, 161, 0.2);
+  margin-bottom: 2rem;
+  backdrop-filter: blur(10px); /* glass effect */
+  border: 1px solid rgba(112, 33, 33, 0.2);
+}
+
+.doctor_appt h2 {
+  color: #ffffff;
+
+}
+
+.table-responsive {
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* Transparent table */
+.table {
+  background-color: transparent;
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+  font-size: 1.35rem;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+  padding: 14px;
+  background-color: transparent !important;
+}
+
+/* Header background transparent with border only */
+.table thead {
+  background-color: rgba(77, 79, 177, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.table thead th {
+  color: #eeeded;
+  font-weight: 700;
+  font-size: 1.45rem;
+}
+
+/* Hover effect */
+.table tbody tr:hover {
+  background-color: #564dd31a;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .doctor_appt h2 {
+    font-size: 1.7rem;
+  }
+
+  .table {
+    font-size: 0.95rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .doctor_appt {
+    padding: 1rem;
+  }
+
+  .doctor_appt h2 {
+    font-size: 1.4rem;
+  }
+
+  .table {
+    font-size: 0.85rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+}

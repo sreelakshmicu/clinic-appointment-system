@@ -1,0 +1,81 @@
+.doctor-list h2 {
+  color: #e9f1f1;
+  font-weight: 800;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.doctor-list .card {
+  border: none !important;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent white */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(8px); /* For frosted glass effect */
+}
+
+.doctor-list .card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.doctor-list .card-body {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.doctor-list .card-title {
+  color: #160101;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.doctor-list .card-text {
+  color: #1d0202;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.doctor-list .btn-primary {
+  background-color: #799599 !important;
+  border: none !important;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.doctor-list .btn-primary:hover {
+  background-color: #467d83 !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .doctor-list h2 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+
+  .doctor-list .card-title {
+    font-size: 1.3rem;
+  }
+
+  .doctor-list .card-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .doctor-list .card-title {
+    font-size: 1.1rem;
+  }
+
+  .doctor-list .card-text {
+    font-size: 0.95rem;
+  }
+}

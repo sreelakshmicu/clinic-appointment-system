@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+
+# Django/Flask related
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# Environment variables
+.env
+.env.*
+
+# IDE/Editor folders
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db

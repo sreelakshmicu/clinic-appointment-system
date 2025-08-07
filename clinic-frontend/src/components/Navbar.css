@@ -1,0 +1,16 @@
+.navbar {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .nav-link {
+    color: white !important;
+    margin-left: 15px;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ffeb3b !important;
+    text-decoration: underline;
+  }
+  
